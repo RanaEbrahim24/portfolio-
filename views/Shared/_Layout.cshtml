@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('https://5alfiat.com/wp-content/uploads/2023/02/%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B3%D8%A7%D8%AF%D8%A9-%D9%84%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D8%B5%D9%88%D8%B1-%D9%A1.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .navbar {
+            background-image: url('https://5alfiat.com/wp-content/uploads/2023/02/%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B3%D8%A7%D8%AF%D8%A9-%D9%84%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D8%B5%D9%88%D8%B1-%D9%A1.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/Home/Index">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Home/Skills">Skills<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <center class="fixed-bottom">
+        <p>copyrights &copy; reserved for makdv @DateTime.Now.Year</p>
+    </center>
+
+</body>
+</html>
+
