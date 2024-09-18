@@ -1,22 +1,101 @@
-﻿<h1 style="text-align:center">Projects</h1>
-<hr />
-<p>
-    <h3>Angular Application - ITI Training</h3>
-    <h5>Technologies Used :</h5> Angular, TypeScript, HTML, CSS<br />
-    <h5>Description :</h5>Developed a web application as part of the ITI training program. The project includes a SignIn and SignOut system<br />
-    using Angular for front-end development. Implemented a main page where users can toggle the visibility of an image using<br />
-    a button. Utilized TypeScript for managing application logic and interactions, and employed HTML and CSS for designing<br />
-    the user interface.<br />
-    Achievements: Successfully integrated routing and state management, creating a smooth user experience and enabling<br />
-    effective session handling for login and logout functionalities.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Projects - Portfolio</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f1f1f1;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
 
-   <hr />
-    <h3>Student Affairs System</h3>
-    <h5>Technologies Used :</h5> C#, Blazor, HTML, CSS, JavaScript<br />
-    <h5> Description :</h5>Designed and developed a comprehensive Student Affairs management system for<br />
-    InnoSummer company.Utilized C# and Blazor for building interactive and dynamic web<br />
-    applications.Integrated front-end technologies including HTML, CSS, and JavaScript to enhance user<br />
-    experience and functionality.Implemented features for managing student information, scheduling,<br />
-    and communication, improving efficiency in student affairs operations.<br />
-    Achievements:Improved system efficiency by 20% through optimized database querie
-</p>
+        .content {
+            padding: 20px;
+        }
+
+        .projects-container {
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.S2EuQEs0SgmZm-UPwiuY9wHaEK&pid=Api&P=0&h=220');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .project {
+            background-color: rgba(0, 0, 0, 0.6); 
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+            .project h3 {
+                margin-top: 0;
+                font-size: 1.5rem;
+            }
+
+            .project h5 {
+                font-size: 1.2rem;
+                color: #cce5ff;
+            }
+
+            .project p {
+                margin-bottom: 0;
+            }
+
+            .project hr {
+                margin: 20px 0;
+                border-top: 1px solid #fff;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h2 style="color: #333;">Projects</h2>
+
+        <div class="projects-container">
+            <div class="project">
+                <h3>Angular Application - ITI Training</h3>
+                <h5>Technologies Used:</h5> Angular, TypeScript, HTML, CSS<br />
+                <h5>Description:</h5>
+                Developed a web application as part of the ITI training program. The project includes a SignIn and SignOut system<br />
+                using Angular for front-end development. Implemented a main page where users can toggle the visibility of an image using<br />
+                a button. Utilized TypeScript for managing application logic and interactions, and employed HTML and CSS for designing<br />
+                the user interface.<br />
+                Achievements: Successfully integrated routing and state management, creating a smooth user experience and enabling<br />
+                effective session handling for login and logout functionalities.
+            </div>
+
+            <div class="project">
+                <h3>Portfolio Website - MVC Application</h3>
+                <h5>Technologies Used:</h5> C#, ASP.NET MVC, HTML, CSS, Bootstrap<br />
+                <h5>Description:</h5>
+                Developed a personal portfolio website using ASP.NET MVC framework. The project consists of four main pages:<br />
+                Home, Skills, Projects, and Contact. The Home page provides a brief introduction, the Skills page showcases<br />
+                technical skills, the Projects page highlights key projects, and the Contact page allows visitors to get in touch.<br />
+                Utilized C# and MVC for backend logic, and integrated front-end technologies such as HTML, CSS, and Bootstrap<br />
+                for dynamic content and responsive design.<br />
+                Achievements: Created a fully functional and responsive portfolio that enhanced online presence and improved<br />
+                personal branding.
+            </div>
+
+            <div class="project">
+                <h3>Student Affairs System</h3>
+                <h5>Technologies Used:</h5> C#, Blazor, HTML, CSS, JavaScript<br />
+                <h5>Description:</h5>
+                Designed and developed a comprehensive Student Affairs management system for InnoSummer company. Utilized C# and Blazor<br />
+                for building interactive and dynamic web applications. Integrated front-end technologies including HTML, CSS, and JavaScript<br />
+                to enhance user experience and functionality. Implemented features for managing student information, scheduling,<br />
+                and communication, improving efficiency in student affairs operations.<br />
+                Achievements: Improved system efficiency by 20% through optimized database queries.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
