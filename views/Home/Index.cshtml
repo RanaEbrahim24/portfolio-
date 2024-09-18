@@ -1,38 +1,110 @@
-﻿
-<h1 style="text-align:center">
-    Rana Ebrahim
-</h1>
-<br />
-<hr />
-<p>
-    I am interested in the field of programming, particularly in<br />
-    developing applications using .NET. I am always seeking to gain<br />
-    more experience through training and continuous learning to
-    develop<br /> my skills in this field.
-</p>
-<br />
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home - Portfolio</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<h2>Education</h2>
-<hr />
-<p>
-    Tanta University September 2020 – July 2025
-    <br />
-    Bachelor of Engineering in Computer Engineering Tanta, Gharbia
-</p>
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+           
+            color: #fff;
+            height: 300px;
+        }
 
-<h2>Relevant Coursework</h2>
-<hr />
-<ul>
-    <li> Data Structure</li>
-    <li>Software Engineering</li>
-    <li>Algorithms Analysis</li>
-    <li>Database Management</li>
-    <li>
-        Artificial Intelligence
+            .hero-section img {
+                border-radius: 50%;
+                width: 150px; 
+                height: 150px;
+                margin-right: 20px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            }
 
-    </li>
-    <li> Graphics</li>
-    <li> Web Development</li>
-    <li>Computer Architecture</li>
- 
-</ul>
+            .hero-section h1 {
+                font-size: 3rem;
+                font-weight: bold;
+                margin: 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+            .section h2 {
+                color: #007bff;
+                margin-top: 20px;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            .section hr {
+                border-top: 2px solid #007bff;
+                margin-bottom: 20px;
+            }
+
+            .section ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+                .section ul li {
+                    background: #f8f9fa;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                    color: #333;
+                }
+    </style>
+</head>
+<body>
+
+    <div class="hero-section">
+        <img src="https://tse1.mm.bing.net/th?id=OIF.cT8QFpiaH0Iu%2bI7soC1Y5Q&pid=Api&P=0&h=220" alt="Profile Picture">
+        <h1>Rana Ebrahim</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <p>
+                I am interested in the field of programming, particularly in<br />
+                developing applications using .NET. I am always seeking to gain<br />
+                more experience through training and continuous learning to<br />
+                develop my skills in this field.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <hr />
+            <p>
+                Tanta University September 2020 – July 2025<br />
+                Bachelor of Engineering in Computer Engineering, Tanta, Gharbia
+            </p>
+        </div>
+
+     
+    </div>
+
+</body>
+</html>
